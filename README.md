@@ -23,7 +23,7 @@ This is a simple console RPG game project written in C++. The game allows player
 
 ## Project Structure
 
-- `main.c`: Main file that manages the game flow and contains the `main()` function.
+- `main.cpp`: Main file that manages the game flow and contains the `main()` function.
 - `classes.h`: Defines structures for character classes.
 - `monsters.h`: Defines structures for monsters in the game.
 - `character.h`: Defines structures for the player character.
