@@ -1,101 +1,104 @@
-# Console RPG Game
+# Game RPG Konsol
 
-This is a simple console RPG game project written in C++. The game allows players to create characters, battle monsters, and collect experience and gold.
+Proyek ini adalah game RPG sederhana berbasis konsol yang ditulis dalam bahasa C++ dan sedikit bahasa C. Game ini memungkinkan pemain untuk membuat karakter, melawan monster, dan mengumpulkan pengalaman serta emas.
 
-## Table of Contents
+## Daftar Isi
 
-- [Key Features](#key-features)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [How to Play](#how-to-play)
-- [Credits](#credits)
-- [Contributions](#contributions)
-- [Contact](#contact)
-- [Notes](#notes)
+- [Fitur Utama](#fitur-utama)
+- [Struktur Proyek](#struktur-proyek)
+- [Memulai](#memulai)
+- [Cara Bermain](#cara-bermain)
+- [Kredit](#kredit)
+- [Kontribusi](#kontribusi)
+- [Kontak](#kontak)
+- [Catatan](#catatan)
 
-## Key Features
+## Fitur Utama
 
-- Create characters with various classes that have unique attributes.
-- Battle against monsters with options to attack or flee.
-- Collect experience and gold from battles.
-- Heal the character using gold.
-- Save and continue the game.
+- Membuat karakter dengan berbagai kelas yang memiliki atribut unik.
+- Melawan monster dengan pilihan untuk menyerang atau melarikan diri.
+- Mengumpulkan pengalaman dan emas dari pertempuran.
+- Mengobati karakter menggunakan emas.
+- Menyimpan dan melanjutkan permainan.
 
-## Project Structure
+## Struktur Proyek
 
-- `main.cpp`: Main file that manages the game flow and contains the `main()` function.
-- `classes.h`: Defines structures for character classes.
-- `monsters.h`: Defines structures for monsters in the game.
-- `character.h`: Defines structures for the player character.
-- `gameplay.h`: Contains function declarations that manage the game, such as `fight()`, `newGame()`, etc.
-- `file_handling.h`: Contains function declarations that handle data storage and retrieval from files.
-- `user_interface.h`: Contains function declarations for displaying menus and statuses to the player.
+- `main.cpp`: Berkas utama yang mengelola alur permainan dan berisi fungsi `main()`.
+- `classes.h`: Mendefinisikan struktur untuk kelas karakter.
+- `monsters.h`: Mendefinisikan struktur untuk monster dalam game.
+- `character.h`: Mendefinisikan struktur untuk karakter pemain.
+- `gameplay.h`: Berisi deklarasi fungsi yang mengelola permainan, seperti `fight()`, `newGame()`, dll.
+- `file_handling.h`: Berisi deklarasi fungsi yang menangani penyimpanan dan pengambilan data dari berkas.
+- `user_interface.h`: Berisi deklarasi fungsi untuk menampilkan menu dan status kepada pemain.
 
-## Getting Started
+## Memulai
 
-To compile and run the game, follow these steps:
+Untuk mengompilasi dan menjalankan game, ikuti langkah-langkah berikut:
 
-1. Open a terminal or command prompt.
-2. Navigate to the project directory.
-3. Compile the code using a C++ compiler. For example:
+1. Buka terminal atau command prompt.
+2. Navigasi ke direktori proyek.
+3. Kompilasi kode menggunakan kompiler C++. Contoh:
+   
    ```shell
    g++ main.c -o main
    ./main
    ```
 
-## How to Play
+   ## Cara Bermain
 
-1. Choose Game Mode:
+1. Pilih Mode Permainan:
 
-   - Select "New Game" to start a new adventure.
-   - Choose "Continue" to resume an existing game.
+   - Pilih "New Game" untuk memulai petualangan baru.
+   - Pilih "Continue" untuk melanjutkan permainan yang sudah ada.
 
-2. Character Creation:
+2. Pembuatan Karakter:
 
-   - If starting a new game, provide a name for your character.
-   - Choose a class for your character: Warrior, Rogue, or Archer.
+   - Jika memulai permainan baru, berikan nama untuk karakter Anda.
+   - Pilih kelas untuk karakter Anda: Warrior, Rogue, atau Archer.
 
-3. Main Game Menu:
+3. Menu Utama Permainan:
 
-   - After character creation, you'll enter the main menu.
-   - The main menu displays your character's status and available actions.
+   - Setelah pembuatan karakter, Anda akan masuk ke menu utama.
+   - Menu utama menampilkan status karakter Anda dan tindakan yang tersedia.
 
-4. Battle Monsters:
+4. Melawan Monster:
 
-   - Opt to fight against monsters from the main menu.
-   - Engage in battles in the battle menu.
-   - Choose to attack or flee from the monster.
-   - Win battles to earn experience and gold.
+   - Pilih untuk melawan monster dari menu utama.
+   - Terlibat dalam pertempuran di menu pertempuran.
+   - Pilih menyerang atau melarikan diri dari monster.
+   - Menangkan pertempuran untuk mendapatkan pengalaman dan emas.
 
-5. Heal Your Character:
+5. Menyembuhkan Karakter Anda:
 
-   - Spend gold to fully restore your character's health.
+   - Habiskan emas untuk mengembalikan kesehatan karakter Anda sepenuhnya.
 
-6. Save Progress:
+6. Menyimpan Perkembangan:
 
-   - At any point in the game, you can save your progress.
-   - Select the "Save" option in the main menu.
+   - Kapan pun dalam permainan, Anda dapat menyimpan perkembangan Anda.
+   - Pilih opsi "Save" di menu utama.
 
-7. Exit the Game:
-   - When you're done playing, select the "Quit" option to exit.
+7. Keluar dari Permainan:
 
-## Credits
+   - Setelah selesai bermain, pilih opsi "Quit" untuk keluar.
 
-- Idea and implementation: Muhammad Bintang Nugraha
+## Kredit
 
-## Contributions
+- Ide dan implementasi: Muhammad Bintang Nugraha
 
-Contributions to this project are welcome. If you have ideas for improvements, feel free to open an issue or submit a pull request.
+## Kontribusi
 
-## Contact
+Kontribusi untuk proyek ini sangat diharapkan. Jika Anda memiliki ide untuk perbaikan, silakan buka isu atau kirim permintaan tarik.
 
-For questions or inquiries, please contact the project author:
+## Kontak
 
-- Name: Muhammad Bintang Nugraha
+Untuk pertanyaan atau informasi lebih lanjut, silakan hubungi penulis proyek:
+
+- Nama: Muhammad Bintang Nugraha
 - Email: djakarta1973@gmail.com
 
-## Notes
+## Catatan
 
-- This project is developed for educational and entertainment purposes.
-- The program runs within a console/command prompt environment.
-- Ensure you have a suitable C++ compiler to run this program.# console-rpg-game
+- Proyek ini dikembangkan untuk tujuan pendidikan dan hiburan.
+- Program ini dijalankan dalam lingkungan konsol/command prompt.
+- Pastikan Anda memiliki kompiler C++/C yang sesuai untuk menjalankan program ini.
+
