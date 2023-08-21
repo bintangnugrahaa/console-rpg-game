@@ -87,7 +87,7 @@ Untuk mengompilasi dan menjalankan game, ikuti langkah-langkah berikut:
 
 ## Kontribusi
 
-Kontribusi untuk proyek ini sangat diharapkan. Jika Anda memiliki ide untuk perbaikan, silakan buka isu atau kirim permintaan tarik.
+Kontribusi untuk proyek ini sangat diharapkan. Jika Anda memiliki ide untuk perbaikan, silakan kirim ke email di bawah.
 
 ## Kontak
 
@@ -100,5 +100,5 @@ Untuk pertanyaan atau informasi lebih lanjut, silakan hubungi penulis proyek:
 
 - Proyek ini dikembangkan untuk tujuan pendidikan dan hiburan.
 - Program ini dijalankan dalam lingkungan konsol/command prompt.
-- Pastikan Anda memiliki kompiler C++/C yang sesuai untuk menjalankan program ini.
+- Pastikan Anda memiliki kompiler C++ yang sesuai untuk menjalankan program ini.
 
