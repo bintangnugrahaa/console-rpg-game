@@ -2,17 +2,6 @@
 
 Proyek ini adalah game RPG sederhana berbasis konsol yang ditulis dalam bahasa C++ dan sedikit bahasa C. Game ini memungkinkan pemain untuk membuat karakter, melawan monster, dan mengumpulkan pengalaman serta emas.
 
-## Daftar Isi
-
-- [Fitur Utama](#fitur-utama)
-- [Struktur Proyek](#struktur-proyek)
-- [Memulai](#memulai)
-- [Cara Bermain](#cara-bermain)
-- [Kredit](#kredit)
-- [Kontribusi](#kontribusi)
-- [Kontak](#kontak)
-- [Catatan](#catatan)
-
 ## Fitur Utama
 
 - Membuat karakter dengan berbagai kelas yang memiliki atribut unik.
